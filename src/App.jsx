@@ -2,6 +2,7 @@ import Features from "./components/Features";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Integrations } from "./components/Integrations";
+import { UseCases } from "./components/UseCases";
 
 
 const Bujeti = () => {
@@ -11,6 +12,7 @@ const Bujeti = () => {
       <Hero />
       <Features/>
       <Integrations/>
+      <UseCases/>
       {/* 
       <UseCases />
       <Reason />

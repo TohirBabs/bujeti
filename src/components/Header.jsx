@@ -93,7 +93,7 @@ const NavMenu = ({ nav, index }) => {
           <p className="capitalize text-lg"> {nav.title}</p> <ChevronDownIcon />
         </div>
         <div
-          // style={{ height: `${menuOpen === index ? "max-height" : "0"}` }} 
+          // style={{ height: `${menuOpen === index ? "max-height" : "0"}` }}
           className={`lg:w-[72rem] text-left lg:items-center justify-center
            h-${menuOpen === index ? "max" : "0"}
          lg:gap-5 gap-2 lg:absolute lg:top-[100%] overflow-hidden lg:left-[50%] lg:-translate-x-[50%] lg:group-hover:h-[450px] transition-all  bg-white backdrop-blur flex flex-col lg:flex-row`}
